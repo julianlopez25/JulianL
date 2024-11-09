@@ -17,11 +17,10 @@
   font-family: "Akaya Kanadaka", system-ui;
 
 }
-
-.titlabel {
+.titlabel{
   color: #39e664;
   font-family: "Akaya Kanadaka", system-ui;
-
+  
 }
 
 input[type="submit"] {
@@ -30,5 +29,6 @@ input[type="submit"] {
   font-size: 15px;
   background-color: #39e664;
   color: #fff;
-  border: none font-family: "Akaya Kanadaka", system-ui
+  border: none
+  
 }
