@@ -5,6 +5,7 @@
 .field label {
   display: block;
   font-size: 14px;
+  font-family: "Akaya Kanadaka", system-ui;
   color: #151415;
 }
 
@@ -13,6 +14,14 @@
   min-width: 250px;
   line-height: 1.5;
   font-size: 14px;
+  font-family: "Akaya Kanadaka", system-ui;
+
+}
+
+.titlabel {
+  color: #39e664;
+  font-family: "Akaya Kanadaka", system-ui;
+
 }
 
 input[type="submit"] {
@@ -21,5 +30,5 @@ input[type="submit"] {
   font-size: 15px;
   background-color: #39e664;
   color: #fff;
-  border: none
+  border: none font-family: "Akaya Kanadaka", system-ui
 }
