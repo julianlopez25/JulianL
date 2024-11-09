@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Julian's portfolio</title>
 </head>
 <body>
     <h1>Julian Lopez - Github Pages</h1>
+    <form id="form">
+        <div class="field">
+          <label for="from_name">De:</label>
+          <input type="text" name="from_name" id="from_name">
+        </div>
+        <div class="field">
+          <label for="to_name">Para:</label>
+          <input type="text" name="to_name" id="to_name">
+        </div>
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <input type="text" name="message" id="message">
+        </div>
+        <div class="field">
+          <label for="reply_to">reply_to</label>
+          <input type="text" name="reply_to" id="reply_to">
+        </div>
+      
+        <input type="submit" id="button" value="Enviar" >
+      </form>
+      
+      <script type="text/javascript"
+        src="/js/index.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('AQkvuRuZMOcH-pUHy')
+      </script>
 </body>
 </html>
